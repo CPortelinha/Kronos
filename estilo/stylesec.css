@@ -1,0 +1,199 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+@font-face {
+  font-family:'Goudy';
+  src: url(../Fonts/GoudyMediaevalRegular.ttf) format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family:'Garamond';
+  src: url(../Fonts/EBGaramond-Regular.ttf) format('opentype');
+  font-weight: normal;
+}
+@font-face {
+  font-family:'viking';
+  src: url(../Fonts/PR\ Viking.ttf) format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family:'coluna';
+  src: url(../Fonts/Greek\ Column.otf) format('opentype');
+  font-weight: normal;
+}
+
+:root{
+  --cor0: #FDF5E6; /*Marfim classico*/
+  --cor1: #F5F5DC;/*Bege Suave */
+  --cor2: #556B2F; /* verde mediaval */
+  --cor3: #27408B; /* azul medieval */
+  --cor4: #DAA520; /*dourado elegante */
+  --cor5: #8B4513; /* castanho rico */
+  --cor6: #800000; /* borgonha profunda */
+  
+
+  --font1: 'Goudy', Arial, Verdana; 
+  --font2: 'viking', Arial, Verdana;
+  --font3: 'Garamond',Arial, Verdana;
+  --font4: 'coluna',Arial, Verdana;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--cor0);
+  font-family: var(--font3);
+}
+
+header{
+  background-color: var(--cor4); 
+  min-height: 9.3rem; 
+  text-align: center;
+  padding-top: 2.5rem;
+  /*background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));*/
+}
+
+header > h1{
+  font-family: var(--font2);
+  font-size: 5em;
+  color:var(--cor5);
+  text-shadow: 1.5px 1.5px 0 rgba(0, 0, 0, 0.295);
+  margin-bottom: .5rem;
+}
+
+.coluna {
+  font-family: var(--font4);
+  font-size: 1.5em;
+  font-weight: 100;
+  vertical-align: -.1em;
+}
+
+header p{
+  font-family: var(--font3);
+  color: white;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.295);
+  max-width: 80%;
+  padding: .5em .5em;
+  margin: auto;
+  text-align: center;
+}
+
+nav{
+  background-color: var(--cor5);
+  color: white;
+  font-family: var(--font1);
+  padding: .5em;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.322);
+  text-align: center;
+}
+nav a {
+  color: white;
+  padding: .5em;
+  text-decoration: none;  
+  font-weight: normal;
+  margin: auto;
+}
+
+nav a:hover {
+  background-color: var(--cor4);
+  margin: 0;
+  border-radius: 5px;
+  transition-duration: .4s; 
+}
+
+main{
+  background-color: var(--cor1);
+  min-width: 300px;
+  max-width: 1300px;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 .7rem rgba(0, 0, 0, 0.568);
+  border-bottom-left-radius:1rem ;
+  border-bottom-right-radius: 1rem;
+  
+}
+
+main h1{
+  font-family: var(--font1);
+  font-size: 2em;
+  font-weight:normal;
+  }
+
+  .seculo{
+    padding: 2em;   
+  }
+
+main h2{
+  font-family: var(--font3);
+  font-size: 1.5em;
+  background-image: linear-gradient(to right, var(--cor4), transparent) ;
+  text-indent: .2em;
+  margin-bottom: 1em;
+  font-weight: normal;
+}
+
+main h2{
+  font-family: var(--font3);
+  font-size: 1.5;
+  background-image: linear-gradient(to right, var(--cor4), transparent) ;
+  text-indent: .2em;
+  margin-bottom: 1em;
+  font-weight: normal;
+}
+
+main p{
+  font-family: var(--font3);  
+  margin: 1.5rem 0;
+ text-align: justify;  
+ text-indent: .7rem;
+ line-height: 1,5em; /*espaço entrelinhas */
+ font-size: 1.1em;
+}
+
+main a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--cor6);
+}
+
+main a:hover{
+  text-decoration: underline;
+  color: var(--cor5);
+}
+
+
+
+section img{
+  max-width: 40rem;
+}
+
+.serie {
+  display: grid; /* Usando layout de grid */
+  grid-template-columns: repeat(2, 1fr); /* Dividindo o contêiner em duas colunas de largura igual */
+  gap: 1.5em; /* Adiciona espaçamento entre as colunas */
+}
+
+.serie aside {
+  margin-top: 20px; /* Adiciona um espaçamento superior de 20 pixels */
+}
+
+.resumo{  
+  grid-column: span 2
+}
+
+footer{
+  background-color: var(--cor5);
+  color: white;
+  text-align: center;
+  padding: .10em;
+  }
+
+  
