@@ -1,5 +1,5 @@
 Este repositório contém o código-fonte de um site dedicado a apresentar séries históricas em ordem cronológica. Cada seculo é explorado destacando séries que retratam eventos e períodos significativos.
-Através dessas series, buscamos oferecer um aprendizado enriquecedor sobre a história, mostrando como cada época contribuiu para moldar o mundo atual.
+Através dessas series, buscamos oferecer uma aprendizagem enriquecedora sobre a história, mostrando como cada época contribuiu para moldar o mundo atual.
 
 Principais Funcionalidades:
 
