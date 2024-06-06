@@ -198,7 +198,7 @@ section img{
   padding: 2em;
   display: block;           /* Garante que o elemento seja um bloco */
 }
-}
+
 
 footer{
   background-color: var(--cor5);
