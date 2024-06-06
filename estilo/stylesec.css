@@ -189,6 +189,17 @@ section img{
   grid-column: span 2
 }
 
+.sem{
+  background-color: var(--cor5);  /* Cor de fundo castanho */
+  color: white;             /* Cor das letras brancas */
+  width: 50%;               /* Ocupa metade da largura da tela */
+  margin: 0 auto;           /* Centraliza horizontalmente */
+  text-align: center;       /* Centraliza o texto dentro do elemento */
+  padding: 2em;
+  display: block;           /* Garante que o elemento seja um bloco */
+}
+}
+
 footer{
   background-color: var(--cor5);
   color: white;
